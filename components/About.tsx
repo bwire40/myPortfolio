@@ -19,7 +19,7 @@ function About({}: Props) {
       transition={{
         duration: 1.5,
       }}
-      className="h-screen border flex flex-col relative text-center md:text-left md:flex-row max-w-7xl items-center justify-center px-10 mx-auto"
+      className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl items-center justify-center px-10 mx-auto"
     >
       <h3 className="absolute top-24 mb-[100px] tracking-[20px] uppercase text-gray-500 text-2xl text-center">
         About
@@ -39,7 +39,7 @@ function About({}: Props) {
         transition={{
           duration: 1.2,
         }}
-        className="border mt-[200px] md:mt-10 xl:mt-10 -mb-20 md:mb-0 flex justify-center items-center flex-shrink-0 md:rounded-lg md:w-64"
+        className="mt-[200px] md:mt-10 xl:mt-10 -mb-20 md:mb-0 flex justify-center items-center flex-shrink-0 md:rounded-lg md:w-[40%]"
       >
         <img
           src="https://www.yugatech.com/wp-content/uploads/2020/09/Facebook-Avatar.jpg"
@@ -49,7 +49,7 @@ function About({}: Props) {
         />
       </motion.div>
 
-      <div className="space-y-10 px-0 mt-20 md:px-10">
+      <div className="space-y-10 px-0 py-5 mt-20 md:px-10">
         <h4 className="text-2xl md:text-3xl xl:text-3xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}

@@ -28,14 +28,23 @@ function Header({}: Props) {
         className="flex flex-row items-center "
       >
         {/* social icons */}
-        <a className="mr-2" href="#">
-          <BsInstagram fontSize={30} />
+        <a
+          className="mr-2 text-gray-600 hover:text-gray-400 transition duration-400"
+          href="#"
+        >
+          <BsInstagram fontSize={20} />
         </a>
-        <a className="mr-2" href="#">
-          <BsTwitter fontSize={30} />
+        <a
+          className="mr-2 text-gray-600 hover:text-gray-400 transition duration-400"
+          href="#"
+        >
+          <BsTwitter fontSize={20} />
         </a>
-        <a className="mr-2" href="#">
-          <BsLinkedin fontSize={30} />
+        <a
+          className="mr-2 text-gray-600 hover:text-gray-400 transition duration-400"
+          href="#"
+        >
+          <BsLinkedin fontSize={20} />
         </a>
       </motion.div>
 
@@ -55,12 +64,15 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-        <a href="mailto:emmanuelbwire80@gmail.com">
+        <a
+          href="mailto:emmanuelbwire80@gmail.com"
+          className="flex justify-center items-center text-gray-600 hover:text-gray-400 transition duration-400"
+        >
           <HiOutlineMail fontSize={30} />
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-500">
+            Get In Touch
+          </p>
         </a>
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-          Get In Touch
-        </p>
       </motion.div>
     </header>
   );

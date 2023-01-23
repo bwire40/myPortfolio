@@ -8,7 +8,7 @@ type Props = {};
 
 function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 w-[100%] md:w-[50%] xl:w-[50%] snap-center bg-[#292929] p-10 hover:opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden mt-[150px] ml-10">
+    <article className="flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 w-[100%] md:w-[40%] xl:w-[40%] gap-[10%] snap-center bg-[#292929] p-10 hover:opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden mt-[150px] ml-10">
       <div className="flex flex-col items-center">
         <motion.div className="">
           <motion.img
@@ -21,15 +21,15 @@ function ExperienceCard({}: Props) {
               opacity: 1,
             }}
             viewport={{
-              once: false,
+              once: true,
             }}
             transition={{
               duration: 1.2,
             }}
             src="https://www.yugatech.com/wp-content/uploads/2020/09/Facebook-Avatar.jpg"
             alt="me"
-            width="100%"
-            className="object-cover object-center w-32 rounded-full xl:w-[200px] xl:h-[200px] "
+            width={70}
+            className="object-cover object-center w-32 rounded-full "
           />
         </motion.div>
 
