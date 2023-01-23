@@ -55,7 +55,9 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-        <HiOutlineMail fontSize={30} />
+        <a href="mailto:emmanuelbwire80@gmail.com">
+          <HiOutlineMail fontSize={30} />
+        </a>
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
           Get In Touch
         </p>
