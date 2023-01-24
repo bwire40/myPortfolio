@@ -10,11 +10,7 @@ function Skills({}: Props) {
         opacity: 0,
       }}
       whileInView={{
-        opacity: [0, 0.4, 0.6, 0.8, 0.9, 1.0],
-        scale: [0.8, 1.1, 1],
-      }}
-      viewport={{
-        once: false,
+        opacity: 1,
       }}
       transition={{
         duration: 1.5,
@@ -27,7 +23,7 @@ function Skills({}: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for currency proffeciency
       </h3>
-      <div className="absolute top-52 grid grid-cols-4 gap-5">
+      <div className="absolute top-52 px-5 grid grid-cols-4 gap-5">
         <Skill />
         <Skill />
         <Skill />

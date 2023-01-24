@@ -21,7 +21,7 @@ function About({}: Props) {
       }}
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl items-center justify-center px-10 mx-auto"
     >
-      <h3 className="absolute top-24 mb-[100px] tracking-[20px] uppercase text-gray-500 text-2xl text-center">
+      <h3 className="absolute top-28 md:top-32 xl:top-44 mb-[100px] tracking-[20px] uppercase text-gray-500 text-2xl text-center">
         About
       </h3>
       <motion.div
@@ -44,8 +44,7 @@ function About({}: Props) {
         <img
           src="https://www.yugatech.com/wp-content/uploads/2020/09/Facebook-Avatar.jpg"
           alt="me"
-          width="50%"
-          className="rounded-full"
+          className="rounded-full w-[40%]"
         />
       </motion.div>
 

@@ -28,7 +28,7 @@ const Experience = (props: Props) => {
       {/* <h3 className="absolute top-40 mb-80 uppercase text-gray-500 text-2xl text-center">
         <AiOutlineDoubleRight />
       </h3> */}
-      <div className="w-full flex overflow-x-scroll p-12 md:px-32 snap-x snap-mandatory">
+      <div className="w-full flex overflow-x-scroll px-5 py-10 md:p-10 snap-x snap-mandatory">
         {/* Experience cards */}
         <ExperienceCard />
         <ExperienceCard />
