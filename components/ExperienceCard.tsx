@@ -8,7 +8,7 @@ type Props = {};
 
 function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 w-[100%] md:w-[40%] xl:w-[40%] gap-[10%] snap-center bg-[#292929] p-10 hover:opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden mt-[150px] ml-10">
+    <article className="flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 w-[100%] md:w-[40%] xl:w-[40%] gap-[10%] snap-center bg-[#292929] p-10 hover:opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden mt-[120px] ml-10">
       <div className="flex flex-col items-center">
         <motion.div className="">
           <motion.img

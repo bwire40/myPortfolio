@@ -20,14 +20,14 @@ const Experience = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="h-auto mt-[200px] flex relative overflow-hidden flex-col text-left md:flex-row max-x-full px-10 justify-evenly mx-auto items-center"
+      className="h-auto flex relative overflow-hidden flex-col text-left md:flex-row max-x-full px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-24 mb-80 tracking-[20px] uppercase text-gray-500 text-2xl text-center">
         Experience
       </h3>
-      <h3 className="absolute top-40 mb-80 uppercase text-gray-500 text-2xl text-center">
+      {/* <h3 className="absolute top-40 mb-80 uppercase text-gray-500 text-2xl text-center">
         <AiOutlineDoubleRight />
-      </h3>
+      </h3> */}
       <div className="w-full flex overflow-x-scroll p-12 md:px-32 snap-x snap-mandatory">
         {/* Experience cards */}
         <ExperienceCard />

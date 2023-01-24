@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
@@ -19,17 +20,22 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section id="about" className="h-screen snap-center py-10">
+      <section id="about" className="h-auto snap-center py-10">
         <About />
       </section>
 
-      <section id="experience" className="snap-center h-screen">
+      <section id="experience" className="snap-start border h-auto">
         <Experience />
       </section>
 
       {/* Skills */}
       <section id="skills" className="snap-start h-screen">
         <Skills />
+      </section>
+
+      {/* Projects */}
+      <section id="projects" className="snap-center border h-auto">
+        <Projects />
       </section>
     </div>
   );
