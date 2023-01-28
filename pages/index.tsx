@@ -6,6 +6,8 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="relative bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0 overflow-x-hidden">
@@ -39,12 +41,12 @@ export default function Home() {
         <Projects />
       </section>
       {/* Contacts */}
-      <section id="contact" className="snap-start h-screen">
+      <section id="contact" className="snap-end h-screen">
         <Contact />
       </section>
-      {/*  <div className=" snap-end">
-        <a href="#hero">Back to the top</a>
-      </div> */}
+      <Link href="#hero">
+        <Footer />
+      </Link>
     </div>
   );
 }
